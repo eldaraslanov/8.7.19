@@ -1,0 +1,159 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navi{
+    width: 100%;
+    background: rgb(54, 10, 10);
+    position: relative;
+    margin: 0 auto;
+}
+a{
+    cursor: pointer;
+}
+.navi>li{
+    display: inline-block;
+    position: relative;
+}
+.navi a{
+    text-decoration: none;
+    color: antiquewhite;
+    padding: 10px;
+    
+}
+.navi>li>a{
+    position: relative;
+    display: inline-block;
+}
+.navi>li:hover .child{
+    display:block; 
+}
+.navi a :hover{
+    background: black;
+    color: aliceblue;
+}
+.child{
+    width: 150px;
+    position: absolute;
+    left: 0;
+    background: black;
+    display: none;
+    overflow: hidden;
+}
+.child a{
+    display: block;
+}
+.search{
+    height: 25px;
+    background: white;
+    color: black;
+    border-radius: 5px;
+    outline: none;
+    margin-left: 5px;
+}
+.fa-search{
+    margin-left: 5px;
+}
+.style1{
+    background: url(https://blackrockdigital.github.io/startbootstrap-stylish-portfolio/img/bg-masthead.jpg);
+   
+    background-size:cover;
+    background-position: center;
+}
+
+.style1orta{
+    padding: 19rem 0;
+    text-align: center  
+}
+.style1 h1{
+    font-size: 4rem;
+}
+.style1 p{
+    font-size: 1.8rem;
+    font-style: italic;
+    font-weight: bolder;
+}
+.style1 input{
+    padding: 20px;
+    background: #360A0A;
+    border: none;
+    margin-top: 15px;
+    color: white;
+    font-size: 15px;   
+    border-radius: 7px;
+    outline: none;
+}
+.icons{
+    padding: 18px;
+    color: #fff;
+    background: rgb(43, 42, 42);
+    position: fixed;
+    top:40px;
+    border-radius: 5px; 
+    right: 30px;
+}
+.style2{
+    background: #F8F9FA;
+    background-size: cover;
+    background-position: center;
+}
+.style2orta{
+    padding: 6rem 0;
+    text-align: center;
+}
+.style2orta h2{
+    font-size: 30px;
+}
+.style2orta p{
+    font-size: 18px;
+    font-style: italic;
+}
+.style2orta input{
+    padding: 20px;
+    background: #360A0A;
+    margin-top: 15px;
+    border: none;
+    font-size: 15px;
+    color: white;
+    border-radius: 7px;
+    outline: none;
+}
+.style3{
+    background: #1C7A97;
+    padding: 150px 0;
+    color: white;
+}
+.style3orta{
+   margin-bottom: 70px;
+    text-align: center;
+}
+.style3orta h3{
+    font-size: 1rem;
+    color:#ECB807;
+}
+.style3orta h2{
+    font-size: 3rem;
+    color: white;
+}
+.style-middle{
+    margin:auto;
+    width: 960px;
+}
+.service-icons{
+    display: flex;
+    justify-content: space-between;
+}
+.service-icon{
+    font-size: 2rem;
+    color: #360A0A;
+    background:#fff;
+    padding: 25px 32px;
+    max-height: 7rem;
+    max-width: 5.8rem;
+    border-radius: 50%;
+    margin: auto;   
+    box-shadow: 0 3px 3px 0 rgba(0,0,0,.1);
+    text-align: center;
+}
+.s
